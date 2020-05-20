@@ -1,0 +1,43 @@
+:global(#login) {
+  height: 100%;
+  background: rgb(35, 39, 65)
+}
+.container {
+  height: 400px;
+  width: 600px;
+  padding: 80px 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+}
+.title {
+  color: #fff;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+:global(#login .ant-input-affix-wrapper) {
+  height: 42px;
+}
+:global(#login .ant-input-affix-wrapper > input.ant-input) {
+  font-size: 18px;
+  text-indent: 10px;
+}
+:global(#login .ant-input-prefix) {
+  font-size: 18px;
+}
+:global(#login .login-btn .ant-btn-primary) {
+  width: 100%;
+  margin-top: 20px;
+  height: 42px !important;
+}
+:global(.ant-btn) {
+  font-size: 14px !important;
+}
